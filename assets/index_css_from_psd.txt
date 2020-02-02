@@ -1,3 +1,44 @@
+WIDTH OF PAGE: 1330px;
+HEIGHT OF WIREFRAME: 2245px
+CONTAINER RIGHT & LEFT MARGINS OR PADDING
+   - 144px
+FONT FACE: Raleway 
+   - slogan/h2: black 108px
+   - h3: bold italic 60px
+   - navigation: 30pt bold
+   - brand name: 48pt medium
+   - testimonials first line: 36pt bold italic letterspacing 50pt  paragraph-bottom padding 11pt indent 37pt
+   - testimonials: 24px medium letterspacing 25pt paragraph-bottom padding 11pt indent 72pt
+   - "more testimonials": 22pt medium italic letterspacing 25pt centered 
+   - (footer) h5: 24pt bold
+   - (footer) li: 24pt italic
+   - copyright: 16pt regular
+HEADER IMAGE: 
+   - width: 100%
+   - height: 417px
+LOGO IMAGE: 
+   - 288 by 288
+PROMO IMAGE
+   - width: 100%
+   - height: 360px
+FOOTER BOX
+   - width: 100%
+   - height: 353px
+COPYRIGHT BOX
+   - width: 100%
+   - height: 93px
+FOOTER NAV COLUMN 
+   - width: 180px
+"MORE" BUTTON
+   - height: 53 px
+   - width: 287px
+   - centered on page
+TESTIMONIALS
+   - width: 50%
+   - height: 360px
+NAVIGATION 
+   - height: 110px
+
 .Index {
   position: absolute;
   left: 0px;
