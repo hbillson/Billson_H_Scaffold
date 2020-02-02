@@ -3,6 +3,7 @@
 HEADER
    - height: 249px
    - width: 100%
+
 NAVIGATION BAR 
    - height: 110px
    - color: #a1a1a1
