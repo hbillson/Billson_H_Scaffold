@@ -3,17 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Website Scaffold Project - Index</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 	<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
 	<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 <body>
 	<h1 class="hidden">Website Scaffold Project - Index</h1>
 	<section id="header">
-		<h1 class="hidden">Header</h1>
-		<img src="headerBig" alt="big header image">
-		<img src="headerLogo" alt="logo">
+		<h2 class="hidden">Header</h2>
+		<div id="headerImageContainer">
+			<!--<img id="headerBig" src="/" alt="big header image">-->
+			<!--<img id="headerLogo" src="/" alt="logo">-->
+			<div id="headerLogo"></div>
+		</div>
 		<nav id="mainNav">
-			<h1 class="hidden">Main Navigation</h1>
+			<h3 class="hidden">Main Navigation</h3>
 			<a href="/about.html">ABOUT US</a>
 			<a href="/products.html">PRODUCTS</a>
 			<span id="brandName">BRAND NAME</span>
@@ -23,75 +27,86 @@
 	</section>
 	<main>
 		<section id="content">
-			<h1 class="hidden">Main Content</h1>
-			<section id="promo">
-				<h1>"Insert Slogan Here"</h1>
-			</section>
-			<img src="promoImage" alt="promotional image">
-			<section id="testimonials">
-				<h2 class="hidden">Testimonials</h2>
-				<h3>Love from the Community</h3>
+		<div id="container">
+			<h2 class="hidden">Main Content</h2>
+			<div id="promo">
+				<h2>"Insert Slogan Here"</h2>
+				<div id="promoImage"></div>
+			</div>
+			<!--<img id="promoImage" src="promoImage" alt="promotional image">-->
+			<div id="testimonialsWrapper">
+			<h3 id="testimonialsTitle">Love from the Community</h3>
+
+				<h3 class="hidden">Testimonials</h3>
 				<div class="testimonial">
 					<p>"Lorem ipsum dolor sit amet, consecteteur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-					<span class="testimonialName">- John Doe, London</span>
+					<p class="testimonialName">- John Doe, London</p>
 				</div>
 				<div class="testimonial">
 					<p>"Lorem ipsum dolor sit amet, consecteteur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-					<span class="testimonialName">- John Doe, London</span>
+					<p class="testimonialName">- John Doe, London</p>
 				</div>
-				<div class="testimonialButton"></div>
-			</section>
+				<div id="testimonialButton">
+					<button>READ MORE TESTIMONIALS...</button>
+				</div>
+			</div>
+
+		</section>
+	</div>
 	</main>
 	<footer>
 		<section id="mainFooter">
-			<h1 class="hidden">Main Footer</h1>
-			<h2 class="hidden">Footer Navigation</h2>
-			<div class="mainFooterLeft">
-				<div class="mainFooterColumn">
-					<h5>About Us</h5>
-					<ul>
-						<li>Our Story</li>
-						<li>Our People</li>
-						<li>Our Brands</li>
-						<li>Our Values</li>
-					</ul>
+			<h2 class="hidden">Main Footer</h2>
+			<!--<section id="footerNavigation">-->
+				<h3 class="hidden">Footer Navigation</h3>
+				<div class="columnsWrapper">
+					<div class="column">
+						<h5>About Us</h5>
+						<ul>
+							<li><a href="/">Our Story</a></li>
+							<li><a href="/">Our People</a></li>
+							<li><a href="/">Our Brands</a></li>
+							<li><a href="/">Our Values</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<h5>Products</h5>
+						<ul>
+							<li><a href="/">Product 1</a></li>
+							<li><a href="/">Product 2</a></li>
+							<li><a href="/">Product 3</a></li>
+							<li><a href="/">Product 4</a></li>
+						</ul>
+					</div>
 				</div>
-				<div class="mainFooterColumn">
-					<h5>Products</h5>
-					<ul>
-						<li>Product 1</li>
-						<li>Product 2</li>
-						<li>Product 3</li>
-						<li>Product 4</li>
-					</ul>
+				<div class="columnsWrapper">
+					<div class="column">
+						<h5>Locations</h5>
+						<ul>
+							<li><a href="/">London</a></li>
+							<li><a href="/">Toronto</a></li>
+							<li><a href="/">Edmonton</a></li>
+							<li><a href="/">Vancouver</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<h5>Social Media</h5>
+						<ul>
+							<li><a href="/">Facebook</a></li>
+							<li><a href="/">Twitter</a></li>
+							<li><a href="/">Instagram</a></li>
+							<li><a href="/">LinkedIn</a></li>
+						</ul>
+					</div>
 				</div>
-			</div>
-			<div class="mainFooterRight">
-				<div class="mainFooterColumn">
-					<h5>Locations</h5>
-					<ul>
-						<li>London</li>
-						<li>Toronto</li>
-						<li>Edmonton</li>
-						<li>Vancouver</li>
-					</ul>
-				</div>
-				<div class="mainFooterColumn">
-					<h5>Social Media</h5>
-					<ul>
-						<li>Facebook</li>
-						<li>Twitter</li>
-						<li>Instagram</li>
-						<li>LinkedIn</li>
-					</ul>
-				</div>
-			</div>
-		</section>
+		<!--</section>-->
+	</section>
 		<section id="footerCopyright">
-			<h2 class="hidden">Copyright</h2>
+			<h3 class="hidden">Copyright</h3>
 			<p class="copyright">2020 Copyright Info <br> Powered by Billson Co.</p>
 		</section>
 	</footer>
+</section>
 	<script src="js/main.js"></script>
 </body>
 </html>
